@@ -15,7 +15,7 @@ E=[]
 F=[]
 G=[]
 H=[]
-for row in reqd_table.findAll("tr"):
+#for row in reqd_table.findAll("tr"):
     cells = row.findAll('td')
     if len(cells)==8: 
         A.append(cells[0].find(text=True))
