@@ -6,7 +6,7 @@ soup.a
 soup.find_all('a')
 reqd_table=soup.find('table', class_='wikitable sortable')
 reqd_table
-#Append to list
+##Append to list
 A=[]
 B=[]
 C=[]
